@@ -2,7 +2,7 @@
   "name": "ilunestradores",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lorenzogm.github.io/ilunestradores",
+  "homepage": "http://ilunestradores.lorenzogm.com",
   "dependencies": {
     "antd": "^3.2.2",
     "axios": "^0.18.0",
