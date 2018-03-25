@@ -38,7 +38,6 @@ export const fetchPhotos = ({ method, albumId, perPage }) => {
           type: FETCH_PHOTOS_SUCCESS,
           payload: (action, state, res) =>
             getJSON(res).then(json => {
-              console.log(json);
               switch (method) {
                 case 'flickr.people.getPublicPhotos':
                   return normalize(json.photos.photo, [photoSchema]);
